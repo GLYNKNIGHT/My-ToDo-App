@@ -70,6 +70,7 @@ function submitEdit(id){
               {editTask === item.id ?
                   (<input type="text" 
                       onChange={(e)=> setEditText(e.target.value)} 
+                      placeholder={item.task}
                       value={editText}/>) 
                   :
                   (<Task text={item.task} />)}

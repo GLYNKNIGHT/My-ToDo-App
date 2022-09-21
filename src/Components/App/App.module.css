@@ -25,6 +25,13 @@
 .input{
   width: 40vw;
   height:40px;
+  font-size: 1rem;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.list{
+  padding: 0;
+  
 }
 
 .task{
@@ -34,7 +41,9 @@
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  font-size: 1.2rem;
+  padding-top: 10px;
+  margin: 15px;
 }
 
 .button{
